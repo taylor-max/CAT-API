@@ -1,0 +1,20 @@
+#!/usr/bin/python3
+#_*_coding: utf-8_*_
+import time
+import json
+import requests
+
+data = requests.get('https://cat- fact.herokuapp.com/facts/58e0086f0aac31001185ed02')
+print(data.json())
+
+data = requests.get('https://cat-fact.herokuapp.com/facts/58e0086f0aac31001185ed02')
+
+#!/usr/bin/python3
+#_*_coding: utf-8_*_
+import time
+import json
+import requests
+
+data = requests.get('https://cat- fact.herokuapp.com/facts/58e0086f0aac31001185ed02')
+print(data.json()['text'])
+
